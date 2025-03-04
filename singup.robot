@@ -15,13 +15,27 @@ Deve poder cadastrar um novo dog walker
     ${addressCityUf}      Set Variable    Fortaleza/CE
     ${addressNumber}      Set Variable    3572
     ${addressDetails}     Set Variable    Apto. 103
+    ${cnh}                Set Variable    toretto.jpg
 
+    Go to signup page
+    Fill signup form    ${name}    ${email}    ${cpf}    ${cep}    ${addressStreet}    ${addressDistrict}    ${addressCityUf}    ${addressNumber}    ${addressDetails}    ${cnh} 
+    Submit signup form
+    Popup should be    Recebemos o seu cadastro e em breve retornaremos o contato.
+
+*** Keywords ***
+
+
+Go to signup page
     New Browser    browser=chromium    headless=False
     New Page    https://walkdog.vercel.app/signup
 
     Wait For Elements State    form h1    visible    5000
     Get Text    form h1    equal    Faça seu cadastro
+    # Go to signup page
 
+
+Fill signup form
+    [Arguments]    ${name}    ${email}    ${cpf}    ${cep}    ${addressStreet}    ${addressDistrict}    ${addressCityUf}    ${addressNumber}    ${addressDetails}    ${cnh} 
     Fill Text    css=input[name=name]              ${name}
     Fill Text    css=input[name=email]             ${email}
     Fill Text    css=input[name=cpf]               ${cpf}
@@ -37,4 +51,19 @@ Deve poder cadastrar um novo dog walker
     Fill Text    css=input[name=addressNumber]     ${addressNumber}
     Fill Text    css=input[name=addressDetails]    ${addressDetails}
 
-    Sleep    1
+    Upload File By Selector    css=input[type=file]    ${EXECDIR}/${cnh}
+    # Fill signup form
+
+Submit signup form
+    Click    css=.button-register
+    # Submit signup form
+
+
+Popup should be
+    [Arguments]        ${expected_text}
+    Wait For Elements State       css=.swal2-html-container    visible    5    
+    Get Text                      css=.swal2-html-container    equal      ${expected_text}
+
+    Sleep        2
+
+        
