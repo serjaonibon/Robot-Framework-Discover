@@ -1,0 +1,119 @@
+{"level":30,"time":"2025-03-03T22:31:15.837Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Listening on 60817"}
+(node:13116) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2025-03-03T22:31:15.963Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-03-03T22:31:17.384Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Adding browser to stack: chromium, version: 133.0.6943.16"}
+{"level":30,"time":"2025-03-03T22:31:17.386Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-03-03T22:31:17.385Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-03-03T22:31:17.408Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-03-03T22:31:17.407Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-03-03T22:31:17.438Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Changed active context"}
+{"level":30,"time":"2025-03-03T22:31:17.801Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Video path: undefined"}
+{"level":30,"time":"2025-03-03T22:31:17.802Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Changed active page"}
+{"level":30,"time":"2025-03-03T22:31:18.854Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"End of node method newPage"}
+{"level":30,"time":"2025-03-03T22:31:18.863Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-03-03T22:31:18.864Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with form h1 in page."}
+{"level":30,"time":"2025-03-03T22:31:18.916Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-03-03T22:31:18.922Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Start of node method getText"}
+{"level":30,"time":"2025-03-03T22:31:18.923Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with form h1 in page."}
+{"level":30,"time":"2025-03-03T22:31:18.968Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Retrieved text for element form h1 containing Faça seu cadastro"}
+{"level":30,"time":"2025-03-03T22:31:18.968Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"End of node method getText"}
+{"level":30,"time":"2025-03-03T22:31:18.977Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-03-03T22:31:18.977Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=input[name=name] in page."}
+{"level":30,"time":"2025-03-03T22:31:19.006Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"End of node method fillText"}
+{"level":30,"time":"2025-03-03T22:31:19.016Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-03-03T22:31:19.016Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=input[name=email] in page."}
+{"level":30,"time":"2025-03-03T22:31:19.053Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"End of node method fillText"}
+{"level":30,"time":"2025-03-03T22:31:19.071Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-03-03T22:31:19.071Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=input[name=cpf] in page."}
+{"level":30,"time":"2025-03-03T22:31:19.098Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"End of node method fillText"}
+{"level":30,"time":"2025-03-03T22:31:19.118Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-03-03T22:31:19.119Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=input[name=cep] in page."}
+{"level":30,"time":"2025-03-03T22:31:19.144Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"End of node method fillText"}
+{"level":30,"time":"2025-03-03T22:31:19.154Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Start of node method click"}
+{"level":30,"time":"2025-03-03T22:31:19.154Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=input[type=button][value$=CEP] in page."}
+{"level":30,"time":"2025-03-03T22:31:19.200Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"End of node method click"}
+{"level":30,"time":"2025-03-03T22:31:19.207Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2025-03-03T22:31:19.207Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2025-03-03T22:31:19.221Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2025-03-03T22:31:19.221Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2025-03-03T22:31:19.234Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2025-03-03T22:31:19.234Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2025-03-03T22:31:19.248Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2025-03-03T22:31:19.248Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2025-03-03T22:31:19.262Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2025-03-03T22:31:19.262Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2025-03-03T22:31:19.274Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2025-03-03T22:31:19.274Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2025-03-03T22:31:19.287Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2025-03-03T22:31:19.287Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2025-03-03T22:31:19.298Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2025-03-03T22:31:19.299Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2025-03-03T22:31:19.312Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2025-03-03T22:31:19.312Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2025-03-03T22:31:19.322Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2025-03-03T22:31:19.323Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2025-03-03T22:31:19.336Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2025-03-03T22:31:19.336Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2025-03-03T22:31:19.346Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2025-03-03T22:31:19.346Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2025-03-03T22:31:19.360Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2025-03-03T22:31:19.360Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2025-03-03T22:31:19.370Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2025-03-03T22:31:19.370Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2025-03-03T22:31:19.383Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2025-03-03T22:31:19.383Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2025-03-03T22:31:19.395Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2025-03-03T22:31:19.395Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2025-03-03T22:31:19.409Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2025-03-03T22:31:19.409Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2025-03-03T22:31:19.421Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2025-03-03T22:31:19.421Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2025-03-03T22:31:19.434Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2025-03-03T22:31:19.434Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2025-03-03T22:31:19.446Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2025-03-03T22:31:19.446Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2025-03-03T22:31:19.459Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2025-03-03T22:31:19.459Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2025-03-03T22:31:19.470Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2025-03-03T22:31:19.470Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2025-03-03T22:31:19.484Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2025-03-03T22:31:19.485Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2025-03-03T22:31:19.497Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2025-03-03T22:31:19.497Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2025-03-03T22:31:19.511Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2025-03-03T22:31:19.511Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2025-03-03T22:31:19.526Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Retrieved dom property for element css=input[name=addressStreet] containing Avenida Francisco Sá"}
+{"level":30,"time":"2025-03-03T22:31:19.526Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2025-03-03T22:31:19.531Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2025-03-03T22:31:19.531Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=input[name=addressDistrict] in page."}
+{"level":30,"time":"2025-03-03T22:31:19.545Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Retrieved dom property for element css=input[name=addressDistrict] containing Jacarecanga"}
+{"level":30,"time":"2025-03-03T22:31:19.545Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2025-03-03T22:31:19.550Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2025-03-03T22:31:19.550Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=input[name=addressCityUf] in page."}
+{"level":30,"time":"2025-03-03T22:31:19.561Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Retrieved dom property for element css=input[name=addressCityUf] containing Fortaleza/CE"}
+{"level":30,"time":"2025-03-03T22:31:19.562Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2025-03-03T22:31:19.567Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-03-03T22:31:19.567Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=input[name=addressNumber] in page."}
+{"level":30,"time":"2025-03-03T22:31:19.584Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"End of node method fillText"}
+{"level":30,"time":"2025-03-03T22:31:19.591Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-03-03T22:31:19.591Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Strict mode is enabled, find Locator with css=input[name=addressDetails] in page."}
+{"level":30,"time":"2025-03-03T22:31:19.607Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"End of node method fillText"}
+{"level":30,"time":"2025-03-03T22:31:20.619Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-03T22:31:20.623Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-03T22:31:20.626Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-03T22:31:20.631Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-03T22:31:20.636Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-03T22:31:20.638Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-03T22:31:20.646Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-03T22:31:20.648Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-03T22:31:20.652Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Changed active context"}
+{"level":30,"time":"2025-03-03T22:31:20.653Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Changing current active page: page=33e95638-a6e0-4239-88aa-bf149a2c66e6"}
+{"level":30,"time":"2025-03-03T22:31:20.653Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Changed active page"}
+{"level":30,"time":"2025-03-03T22:31:20.658Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-03-03T22:31:20.681Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Removed page=8ab7f59c-f9c3-4d87-825b-ec2de5314c80 from context=6521e400-8f2f-4a70-a020-c9cb61615154 page stack"}
+{"level":30,"time":"2025-03-03T22:31:20.718Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-03-03T22:31:20.731Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-03T22:31:20.732Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-03T22:31:20.810Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-03-03T22:31:21.043Z","pid":13116,"hostname":"SERJAO-PESSOAL","msg":"End of node method closeAllBrowsers"}
